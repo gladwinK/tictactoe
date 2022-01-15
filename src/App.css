@@ -1,3 +1,7 @@
+body{
+  background-color: #1f1f1f;
+}
+
 .App {
   text-align: center;
 }
@@ -13,6 +17,24 @@
   }
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:10px
+}
+
+.box{
+  height: 150px;
+  width: 200px;
+  background-color: rgba(16, 76, 187, 0.877);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  font-size: 40px;
+  color: #fff;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
